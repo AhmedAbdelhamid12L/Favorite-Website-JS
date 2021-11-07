@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Favorite Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-muted py-5 fs-1 border-bottom border-3 border-dark-50">
+        Favorite Website
+      </h1>
+      <div class="m-3 bg-light pb-4">
+        <h2 class="text-center pt-4 fs-3">Bookmark your favorite sites</h2>
+        <h3 class="fs-4 text-center py-3">Site Name</h3>
+        <input
+          type="text"
+          class="form-control w-75 mx-auto my-2 border-primary"
+          placeholder="Bookmark Name"
+          id="bookmarkName"
+        />
+        <h3 class="fs-4 text-center py-3">Site URL</h3>
+        <input
+          type="text"
+          class="form-control w-75 mx-auto my-2 border-primary"
+          placeholder="Website URL"
+          id="websiteURL"
+        />
+        <button class="btn btn-primary d-block mx-auto my-3" id="submitBtn">
+          Submit
+        </button>
+      </div>
+      <div id="listWeb"></div>
+      <p class="text-muted py-3 fs-5 border-top border-3 border-dark-50">
+        © 2019 Bookmarker Inc.
+      </p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
